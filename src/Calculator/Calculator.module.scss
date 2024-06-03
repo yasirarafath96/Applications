@@ -1,0 +1,23 @@
+$flx: flex;
+$color: #fff;
+$bgblue: #007bff;
+
+@mixin button() {
+  color: $color;
+  background-color: $bgblue;
+}
+
+.button {
+  @include button();
+}
+
+@mixin container-flex {
+  display: $flx;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+.container {
+  @include container-flex;
+}

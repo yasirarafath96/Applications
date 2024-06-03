@@ -1,0 +1,12 @@
+.button {
+  color: #fff;
+  background-color: #007bff;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}/*# sourceMappingURL=Calculator.module.css.map */
