@@ -1,0 +1,28 @@
+.calculator-out {
+  background-color: #1f1f1f;
+}
+.calculator-in {
+  background-color: #303030;
+  border-radius: 10px;
+  width: 300px;
+}
+.button {
+  background-color: #303030;
+}
+.input {
+  height: 50px;
+  background-color: #1f1f1f;
+  margin-top: 10px;
+  color: wheat;
+  font-size: 20px;
+}
+.output {
+  height: 50px;
+  background-color: #303030;
+  margin-top: 10px 0px 20px 0px;
+  padding-bottom: 20px;
+  color: wheat;
+  font-size: 20px;
+
+  border-radius: 10px;
+}
