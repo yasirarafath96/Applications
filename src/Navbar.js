@@ -11,23 +11,34 @@ function Navbar() {
   const handletext = () => {
     navigate("/Textutils");
   };
+
+  const handleQr = () => {
+    navigate("/QrGenerator");
+  };
   return (
     <>
-      <nav class="navbar bg-body-tertiary">
+      <nav class="navbar bg-body-secondary mt-5">
         <form class="container-fluid justify-content-start">
           <button
-            class="btn btn-outline-success me-2"
+            class="btn btn-outline-success me-2 m-2"
             type="button"
             onClick={handleCalculator}
           >
             Calculator
           </button>
           <button
-            class="btn btn-outline-success me-2"
+            class="btn btn-outline-success me-2 m-2"
             type="button"
             onClick={handletext}
           >
             Text Utils
+          </button>
+          <button
+            class="btn btn-outline-success me-2 m-2"
+            type="button"
+            onClick={handleQr}
+          >
+            Qr Code Generator
           </button>
         </form>
       </nav>

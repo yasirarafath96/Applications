@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import "../Calculator2/Calci.css";
+import "./Calci.css";
 import { useNavigate } from "react-router-dom";
 
 const Calculator2 = () => {
