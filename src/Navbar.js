@@ -15,6 +15,10 @@ function Navbar() {
   const handleQr = () => {
     navigate("/QrGenerator");
   };
+
+  const handleTodo = () => {
+    navigate("/Todo");
+  };
   return (
     <>
       <nav class="navbar bg-body-secondary mt-5">
@@ -39,6 +43,13 @@ function Navbar() {
             onClick={handleQr}
           >
             Qr Code Generator
+          </button>
+          <button
+            class="btn btn-outline-success me-2 m-2"
+            type="button"
+            onClick={handleTodo}
+          >
+            To-do List
           </button>
         </form>
       </nav>

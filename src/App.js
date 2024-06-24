@@ -6,6 +6,7 @@ import { Route, Routes } from "react-router-dom";
 import Nopage from "./Nopage";
 import Home from "./components/Home";
 import QRCodeGenerator from "./components/qr-code-generator";
+import TaskApp from "./components/TodoList/Todo";
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/Calculator" element={<Calculator2 />}></Route>
         <Route path="/Textutils" element={<Textform />}></Route>
         <Route path="/QrGenerator" element={<QRCodeGenerator />}></Route>
+        <Route path="/Todo" element={<TaskApp />}></Route>
         <Route path="*" element={<Nopage />}></Route>
         <Route></Route>
       </Routes>
